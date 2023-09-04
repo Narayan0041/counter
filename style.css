@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition:all .3s linear;
+}
+html{
+    font-size: 62.2%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7px;
+    overflow-x: hidden;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5) ),url(/counter/b1.jpg);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    
+}
+.sub-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    width: 30%;
+    border-radius: 1rem;
+    padding: 5rem 2rem;
+    background-color: rgb(170, 183, 193);
+}
+.counter{
+    font-size: 2.5rem;
+}
+.counter h2{
+    font-size: 2.5rem;
+    /* background-color: rgb(97, 20, 149); */
+}
+.buttons{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+.buttons .btn{
+    height: 5rem;
+    width: 5rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(231, 10, 10);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.buttons .btn:nth-child(4){
+    font-size: 1.5rem;
+}
+.buttons .btn:nth-child(4):hover{
+    font-size: 2rem;
+    border: 2px solid rgb(10, 156, 124);
+    box-shadow: 2px 2px  5px rgb(102, 26, 152);
+    background-color: rgb(14, 117, 197);
+}
+.buttons .btn:hover{
+    font-size: 2.5rem;
+    border: 2px solid rgb(10, 156, 124);
+    box-shadow: 2px 2px  5px rgb(102, 26, 152);
+    background-color: rgb(14, 117, 197);
+}
+.sub-container div h1{
+    position: relative;
+    bottom: 2rem;
+    font-size: 3rem;
+}
